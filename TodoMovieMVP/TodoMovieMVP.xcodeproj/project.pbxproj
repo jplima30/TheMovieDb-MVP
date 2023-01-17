@@ -7,127 +7,97 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		55ACDBA3296DEE24000A2DF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55ACDBA2296DEE24000A2DF6 /* AppDelegate.swift */; };
-		55ACDBA5296DEE24000A2DF6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55ACDBA4296DEE24000A2DF6 /* ViewController.swift */; };
-		55ACDBA7296DEE25000A2DF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55ACDBA6296DEE25000A2DF6 /* Assets.xcassets */; };
-		55ACDBB5296DEE26000A2DF6 /* TodoMovieMVPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55ACDBB4296DEE26000A2DF6 /* TodoMovieMVPTests.swift */; };
-		55ACDBBF296DEE26000A2DF6 /* TodoMovieMVPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55ACDBBE296DEE26000A2DF6 /* TodoMovieMVPUITests.swift */; };
-		55ACDBC1296DEE26000A2DF6 /* TodoMovieMVPUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55ACDBC0296DEE26000A2DF6 /* TodoMovieMVPUITestsLaunchTests.swift */; };
+		55285BB82971C6AA007A7069 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55285BB72971C6AA007A7069 /* AppDelegate.swift */; };
+		55285BBA2971C6AA007A7069 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55285BB92971C6AA007A7069 /* SceneDelegate.swift */; };
+		55285BBC2971C6AA007A7069 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55285BBB2971C6AA007A7069 /* ViewController.swift */; };
+		55285BC12971C6AC007A7069 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55285BC02971C6AC007A7069 /* Assets.xcassets */; };
+		D228461C18A477D6F8A3364F /* Pods_TodoMovieMVP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78A1EAB86746A146936B88D1 /* Pods_TodoMovieMVP.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		55ACDBB1296DEE26000A2DF6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 55ACDB97296DEE24000A2DF6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 55ACDB9E296DEE24000A2DF6;
-			remoteInfo = TodoMovieMVP;
-		};
-		55ACDBBB296DEE26000A2DF6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 55ACDB97296DEE24000A2DF6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 55ACDB9E296DEE24000A2DF6;
-			remoteInfo = TodoMovieMVP;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		55ACDB9F296DEE24000A2DF6 /* TodoMovieMVP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoMovieMVP.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		55ACDBA2296DEE24000A2DF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		55ACDBA4296DEE24000A2DF6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		55ACDBA6296DEE25000A2DF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		55ACDBAB296DEE25000A2DF6 /* TodoMovieMVP.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TodoMovieMVP.entitlements; sourceTree = "<group>"; };
-		55ACDBB0296DEE26000A2DF6 /* TodoMovieMVPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodoMovieMVPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		55ACDBB4296DEE26000A2DF6 /* TodoMovieMVPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoMovieMVPTests.swift; sourceTree = "<group>"; };
-		55ACDBBA296DEE26000A2DF6 /* TodoMovieMVPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodoMovieMVPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		55ACDBBE296DEE26000A2DF6 /* TodoMovieMVPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoMovieMVPUITests.swift; sourceTree = "<group>"; };
-		55ACDBC0296DEE26000A2DF6 /* TodoMovieMVPUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoMovieMVPUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		55285BB42971C6AA007A7069 /* TodoMovieMVP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoMovieMVP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55285BB72971C6AA007A7069 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		55285BB92971C6AA007A7069 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		55285BBB2971C6AA007A7069 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		55285BC02971C6AC007A7069 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		55285BC52971C6AC007A7069 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78A1EAB86746A146936B88D1 /* Pods_TodoMovieMVP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TodoMovieMVP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD9CABAEFD40FFB223292341 /* Pods-TodoMovieMVP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodoMovieMVP.debug.xcconfig"; path = "Target Support Files/Pods-TodoMovieMVP/Pods-TodoMovieMVP.debug.xcconfig"; sourceTree = "<group>"; };
+		F14E3780DBCACFF1AF97D790 /* Pods-TodoMovieMVP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodoMovieMVP.release.xcconfig"; path = "Target Support Files/Pods-TodoMovieMVP/Pods-TodoMovieMVP.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		55ACDB9C296DEE24000A2DF6 /* Frameworks */ = {
+		55285BB12971C6AA007A7069 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		55ACDBAD296DEE26000A2DF6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		55ACDBB7296DEE26000A2DF6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				D228461C18A477D6F8A3364F /* Pods_TodoMovieMVP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		55ACDB96296DEE24000A2DF6 = {
+		334E324028B025D74B3D2552 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				55ACDBA1296DEE24000A2DF6 /* TodoMovieMVP */,
-				55ACDBB3296DEE26000A2DF6 /* TodoMovieMVPTests */,
-				55ACDBBD296DEE26000A2DF6 /* TodoMovieMVPUITests */,
-				55ACDBA0296DEE24000A2DF6 /* Products */,
+				AD9CABAEFD40FFB223292341 /* Pods-TodoMovieMVP.debug.xcconfig */,
+				F14E3780DBCACFF1AF97D790 /* Pods-TodoMovieMVP.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		55285BAB2971C6AA007A7069 = {
+			isa = PBXGroup;
+			children = (
+				55285BB62971C6AA007A7069 /* TodoMovieMVP */,
+				55285BB52971C6AA007A7069 /* Products */,
+				334E324028B025D74B3D2552 /* Pods */,
+				EC6D74E06A6A5F039798E321 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		55ACDBA0296DEE24000A2DF6 /* Products */ = {
+		55285BB52971C6AA007A7069 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				55ACDB9F296DEE24000A2DF6 /* TodoMovieMVP.app */,
-				55ACDBB0296DEE26000A2DF6 /* TodoMovieMVPTests.xctest */,
-				55ACDBBA296DEE26000A2DF6 /* TodoMovieMVPUITests.xctest */,
+				55285BB42971C6AA007A7069 /* TodoMovieMVP.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		55ACDBA1296DEE24000A2DF6 /* TodoMovieMVP */ = {
+		55285BB62971C6AA007A7069 /* TodoMovieMVP */ = {
 			isa = PBXGroup;
 			children = (
-				55ACDBA2296DEE24000A2DF6 /* AppDelegate.swift */,
-				55ACDBA4296DEE24000A2DF6 /* ViewController.swift */,
-				55ACDBA6296DEE25000A2DF6 /* Assets.xcassets */,
-				55ACDBAB296DEE25000A2DF6 /* TodoMovieMVP.entitlements */,
+				55285BB72971C6AA007A7069 /* AppDelegate.swift */,
+				55285BB92971C6AA007A7069 /* SceneDelegate.swift */,
+				55285BBB2971C6AA007A7069 /* ViewController.swift */,
+				55285BC02971C6AC007A7069 /* Assets.xcassets */,
+				55285BC52971C6AC007A7069 /* Info.plist */,
 			);
 			path = TodoMovieMVP;
 			sourceTree = "<group>";
 		};
-		55ACDBB3296DEE26000A2DF6 /* TodoMovieMVPTests */ = {
+		EC6D74E06A6A5F039798E321 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				55ACDBB4296DEE26000A2DF6 /* TodoMovieMVPTests.swift */,
+				78A1EAB86746A146936B88D1 /* Pods_TodoMovieMVP.framework */,
 			);
-			path = TodoMovieMVPTests;
-			sourceTree = "<group>";
-		};
-		55ACDBBD296DEE26000A2DF6 /* TodoMovieMVPUITests */ = {
-			isa = PBXGroup;
-			children = (
-				55ACDBBE296DEE26000A2DF6 /* TodoMovieMVPUITests.swift */,
-				55ACDBC0296DEE26000A2DF6 /* TodoMovieMVPUITestsLaunchTests.swift */,
-			);
-			path = TodoMovieMVPUITests;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		55ACDB9E296DEE24000A2DF6 /* TodoMovieMVP */ = {
+		55285BB32971C6AA007A7069 /* TodoMovieMVP */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 55ACDBC4296DEE26000A2DF6 /* Build configuration list for PBXNativeTarget "TodoMovieMVP" */;
+			buildConfigurationList = 55285BC82971C6AC007A7069 /* Build configuration list for PBXNativeTarget "TodoMovieMVP" */;
 			buildPhases = (
-				55ACDB9B296DEE24000A2DF6 /* Sources */,
-				55ACDB9C296DEE24000A2DF6 /* Frameworks */,
-				55ACDB9D296DEE24000A2DF6 /* Resources */,
+				37BDEBAB50A9C02A26E08638 /* [CP] Check Pods Manifest.lock */,
+				55285BB02971C6AA007A7069 /* Sources */,
+				55285BB12971C6AA007A7069 /* Frameworks */,
+				55285BB22971C6AA007A7069 /* Resources */,
+				9A966B5C3C2F98589477A885 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -135,69 +105,25 @@
 			);
 			name = TodoMovieMVP;
 			productName = TodoMovieMVP;
-			productReference = 55ACDB9F296DEE24000A2DF6 /* TodoMovieMVP.app */;
+			productReference = 55285BB42971C6AA007A7069 /* TodoMovieMVP.app */;
 			productType = "com.apple.product-type.application";
-		};
-		55ACDBAF296DEE26000A2DF6 /* TodoMovieMVPTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 55ACDBC7296DEE26000A2DF6 /* Build configuration list for PBXNativeTarget "TodoMovieMVPTests" */;
-			buildPhases = (
-				55ACDBAC296DEE26000A2DF6 /* Sources */,
-				55ACDBAD296DEE26000A2DF6 /* Frameworks */,
-				55ACDBAE296DEE26000A2DF6 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				55ACDBB2296DEE26000A2DF6 /* PBXTargetDependency */,
-			);
-			name = TodoMovieMVPTests;
-			productName = TodoMovieMVPTests;
-			productReference = 55ACDBB0296DEE26000A2DF6 /* TodoMovieMVPTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		55ACDBB9296DEE26000A2DF6 /* TodoMovieMVPUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 55ACDBCA296DEE26000A2DF6 /* Build configuration list for PBXNativeTarget "TodoMovieMVPUITests" */;
-			buildPhases = (
-				55ACDBB6296DEE26000A2DF6 /* Sources */,
-				55ACDBB7296DEE26000A2DF6 /* Frameworks */,
-				55ACDBB8296DEE26000A2DF6 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				55ACDBBC296DEE26000A2DF6 /* PBXTargetDependency */,
-			);
-			name = TodoMovieMVPUITests;
-			productName = TodoMovieMVPUITests;
-			productReference = 55ACDBBA296DEE26000A2DF6 /* TodoMovieMVPUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		55ACDB97296DEE24000A2DF6 /* Project object */ = {
+		55285BAC2971C6AA007A7069 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
-					55ACDB9E296DEE24000A2DF6 = {
+					55285BB32971C6AA007A7069 = {
 						CreatedOnToolsVersion = 14.2;
-					};
-					55ACDBAF296DEE26000A2DF6 = {
-						CreatedOnToolsVersion = 14.2;
-						TestTargetID = 55ACDB9E296DEE24000A2DF6;
-					};
-					55ACDBB9296DEE26000A2DF6 = {
-						CreatedOnToolsVersion = 14.2;
-						TestTargetID = 55ACDB9E296DEE24000A2DF6;
 					};
 				};
 			};
-			buildConfigurationList = 55ACDB9A296DEE24000A2DF6 /* Build configuration list for PBXProject "TodoMovieMVP" */;
+			buildConfigurationList = 55285BAF2971C6AA007A7069 /* Build configuration list for PBXProject "TodoMovieMVP" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -205,87 +131,84 @@
 				en,
 				Base,
 			);
-			mainGroup = 55ACDB96296DEE24000A2DF6;
-			productRefGroup = 55ACDBA0296DEE24000A2DF6 /* Products */;
+			mainGroup = 55285BAB2971C6AA007A7069;
+			productRefGroup = 55285BB52971C6AA007A7069 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				55ACDB9E296DEE24000A2DF6 /* TodoMovieMVP */,
-				55ACDBAF296DEE26000A2DF6 /* TodoMovieMVPTests */,
-				55ACDBB9296DEE26000A2DF6 /* TodoMovieMVPUITests */,
+				55285BB32971C6AA007A7069 /* TodoMovieMVP */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		55ACDB9D296DEE24000A2DF6 /* Resources */ = {
+		55285BB22971C6AA007A7069 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55ACDBA7296DEE25000A2DF6 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		55ACDBAE296DEE26000A2DF6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		55ACDBB8296DEE26000A2DF6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				55285BC12971C6AC007A7069 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		37BDEBAB50A9C02A26E08638 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TodoMovieMVP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A966B5C3C2F98589477A885 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TodoMovieMVP/Pods-TodoMovieMVP-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TodoMovieMVP/Pods-TodoMovieMVP-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TodoMovieMVP/Pods-TodoMovieMVP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		55ACDB9B296DEE24000A2DF6 /* Sources */ = {
+		55285BB02971C6AA007A7069 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55ACDBA5296DEE24000A2DF6 /* ViewController.swift in Sources */,
-				55ACDBA3296DEE24000A2DF6 /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		55ACDBAC296DEE26000A2DF6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				55ACDBB5296DEE26000A2DF6 /* TodoMovieMVPTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		55ACDBB6296DEE26000A2DF6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				55ACDBBF296DEE26000A2DF6 /* TodoMovieMVPUITests.swift in Sources */,
-				55ACDBC1296DEE26000A2DF6 /* TodoMovieMVPUITestsLaunchTests.swift in Sources */,
+				55285BBC2971C6AA007A7069 /* ViewController.swift in Sources */,
+				55285BB82971C6AA007A7069 /* AppDelegate.swift in Sources */,
+				55285BBA2971C6AA007A7069 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		55ACDBB2296DEE26000A2DF6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 55ACDB9E296DEE24000A2DF6 /* TodoMovieMVP */;
-			targetProxy = 55ACDBB1296DEE26000A2DF6 /* PBXContainerItemProxy */;
-		};
-		55ACDBBC296DEE26000A2DF6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 55ACDB9E296DEE24000A2DF6 /* TodoMovieMVP */;
-			targetProxy = 55ACDBBB296DEE26000A2DF6 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		55ACDBC2296DEE26000A2DF6 /* Debug */ = {
+		55285BC62971C6AC007A7069 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -335,17 +258,17 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		55ACDBC3296DEE26000A2DF6 /* Release */ = {
+		55285BC72971C6AC007A7069 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -389,179 +312,94 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		55ACDBC5296DEE26000A2DF6 /* Debug */ = {
+		55285BC92971C6AC007A7069 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD9CABAEFD40FFB223292341 /* Pods-TodoMovieMVP.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = TodoMovieMVP/TodoMovieMVP.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = SDJ7VCBK6B;
-				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				INFOPLIST_FILE = TodoMovieMVP/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
+					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = TodoMovieMVP.TodoMovieMVP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		55ACDBC6296DEE26000A2DF6 /* Release */ = {
+		55285BCA2971C6AC007A7069 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F14E3780DBCACFF1AF97D790 /* Pods-TodoMovieMVP.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = TodoMovieMVP/TodoMovieMVP.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = SDJ7VCBK6B;
-				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				INFOPLIST_FILE = TodoMovieMVP/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
+					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = TodoMovieMVP.TodoMovieMVP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
-		55ACDBC8296DEE26000A2DF6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = SDJ7VCBK6B;
-				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 13.1;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = TodoMovieMVP.TodoMovieMVPTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TodoMovieMVP.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TodoMovieMVP";
-			};
-			name = Debug;
-		};
-		55ACDBC9296DEE26000A2DF6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = SDJ7VCBK6B;
-				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 13.1;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = TodoMovieMVP.TodoMovieMVPTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TodoMovieMVP.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TodoMovieMVP";
-			};
-			name = Release;
-		};
-		55ACDBCB296DEE26000A2DF6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = SDJ7VCBK6B;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = TodoMovieMVP.TodoMovieMVPUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = TodoMovieMVP;
-			};
-			name = Debug;
-		};
-		55ACDBCC296DEE26000A2DF6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = SDJ7VCBK6B;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = TodoMovieMVP.TodoMovieMVPUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = TodoMovieMVP;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		55ACDB9A296DEE24000A2DF6 /* Build configuration list for PBXProject "TodoMovieMVP" */ = {
+		55285BAF2971C6AA007A7069 /* Build configuration list for PBXProject "TodoMovieMVP" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				55ACDBC2296DEE26000A2DF6 /* Debug */,
-				55ACDBC3296DEE26000A2DF6 /* Release */,
+				55285BC62971C6AC007A7069 /* Debug */,
+				55285BC72971C6AC007A7069 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		55ACDBC4296DEE26000A2DF6 /* Build configuration list for PBXNativeTarget "TodoMovieMVP" */ = {
+		55285BC82971C6AC007A7069 /* Build configuration list for PBXNativeTarget "TodoMovieMVP" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				55ACDBC5296DEE26000A2DF6 /* Debug */,
-				55ACDBC6296DEE26000A2DF6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		55ACDBC7296DEE26000A2DF6 /* Build configuration list for PBXNativeTarget "TodoMovieMVPTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				55ACDBC8296DEE26000A2DF6 /* Debug */,
-				55ACDBC9296DEE26000A2DF6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		55ACDBCA296DEE26000A2DF6 /* Build configuration list for PBXNativeTarget "TodoMovieMVPUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				55ACDBCB296DEE26000A2DF6 /* Debug */,
-				55ACDBCC296DEE26000A2DF6 /* Release */,
+				55285BC92971C6AC007A7069 /* Debug */,
+				55285BCA2971C6AC007A7069 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 55ACDB97296DEE24000A2DF6 /* Project object */;
+	rootObject = 55285BAC2971C6AA007A7069 /* Project object */;
 }
