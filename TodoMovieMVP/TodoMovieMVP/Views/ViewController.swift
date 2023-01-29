@@ -12,19 +12,21 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = .red
+        self.view.backgroundColor = .black
+        self.view.addSubview(self.tableView)
     }
 }
 
-private var tableView: UITableView = {
-    let tableView = UITableView()
-    tableView.dataSource = self
-    tableView.delegate = self
-    tableView.backgroundColor = .clear
-    tableView.translatesAutoresizingMaskIntoConstraints = false
-    tableView.rowHeight = UITableView.automaticDimension
-    return tableView
+    var tableView: UITableView = {
+        let tableView = UITableView(frame: .zero, style: .plain)
+        tableView.isScrollEnabled = false
+//        tableView.separatorStyle = .none
+//        tableView.dataSource = self
+//        tableView.delegate = self
+        tableView.register(CustomTableViewCell.self, forCellReuseIdentifier: CustomTableViewCell.identifier)
+   return tableView
 }()
+
 
 struct ViewControllerRepresentable: UIViewControllerRepresentable {
     
