@@ -11,6 +11,7 @@
 		55285BBA2971C6AA007A7069 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55285BB92971C6AA007A7069 /* SceneDelegate.swift */; };
 		55285BBC2971C6AA007A7069 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55285BBB2971C6AA007A7069 /* ViewController.swift */; };
 		55285BC12971C6AC007A7069 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55285BC02971C6AC007A7069 /* Assets.xcassets */; };
+		553568F729785AEF007F739E /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553568F629785AEF007F739E /* CustomTableViewCell.swift */; };
 		D228461C18A477D6F8A3364F /* Pods_TodoMovieMVP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78A1EAB86746A146936B88D1 /* Pods_TodoMovieMVP.framework */; };
 /* End PBXBuildFile section */
 
@@ -21,6 +22,7 @@
 		55285BBB2971C6AA007A7069 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		55285BC02971C6AC007A7069 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55285BC52971C6AC007A7069 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		553568F629785AEF007F739E /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		78A1EAB86746A146936B88D1 /* Pods_TodoMovieMVP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TodoMovieMVP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD9CABAEFD40FFB223292341 /* Pods-TodoMovieMVP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodoMovieMVP.debug.xcconfig"; path = "Target Support Files/Pods-TodoMovieMVP/Pods-TodoMovieMVP.debug.xcconfig"; sourceTree = "<group>"; };
 		F14E3780DBCACFF1AF97D790 /* Pods-TodoMovieMVP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodoMovieMVP.release.xcconfig"; path = "Target Support Files/Pods-TodoMovieMVP/Pods-TodoMovieMVP.release.xcconfig"; sourceTree = "<group>"; };
@@ -44,7 +46,6 @@
 				AD9CABAEFD40FFB223292341 /* Pods-TodoMovieMVP.debug.xcconfig */,
 				F14E3780DBCACFF1AF97D790 /* Pods-TodoMovieMVP.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -71,11 +72,20 @@
 			children = (
 				55285BB72971C6AA007A7069 /* AppDelegate.swift */,
 				55285BB92971C6AA007A7069 /* SceneDelegate.swift */,
-				55285BBB2971C6AA007A7069 /* ViewController.swift */,
+				553568F529785A87007F739E /* Views */,
 				55285BC02971C6AC007A7069 /* Assets.xcassets */,
 				55285BC52971C6AC007A7069 /* Info.plist */,
 			);
 			path = TodoMovieMVP;
+			sourceTree = "<group>";
+		};
+		553568F529785A87007F739E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				55285BBB2971C6AA007A7069 /* ViewController.swift */,
+				553568F629785AEF007F739E /* CustomTableViewCell.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		EC6D74E06A6A5F039798E321 /* Frameworks */ = {
@@ -201,6 +211,7 @@
 			files = (
 				55285BBC2971C6AA007A7069 /* ViewController.swift in Sources */,
 				55285BB82971C6AA007A7069 /* AppDelegate.swift in Sources */,
+				553568F729785AEF007F739E /* CustomTableViewCell.swift in Sources */,
 				55285BBA2971C6AA007A7069 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
